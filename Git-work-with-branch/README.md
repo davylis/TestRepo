@@ -1,15 +1,15 @@
 # How to use branches with remote repo
 
 ### clone repo
-***
+```
 git clone https://github.com/user/test.git
-***
+```
 
 ### Make branch and switch to it
-***
+```
 git switch -c develop
 git push -u origin develop
-***
+```
 
 ### Make your own feature branch and switch to it
 ***
