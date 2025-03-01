@@ -44,4 +44,9 @@ git tag -a v1.0 -m "First release of Scrum guide"
 git push origin v1.0
 git push origin master
 ```
-
+### Branch deletion
+```
+git branch -d feature/liisa  # Delete the local branch
+git branch -D feature/liisa
+git push origin --delete feature/liisa
+```
