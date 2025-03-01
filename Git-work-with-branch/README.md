@@ -47,6 +47,6 @@ git push origin master
 ### Branch deletion
 ```
 git branch -d feature/liisa  # Delete the local branch
-git branch -D feature/liisa
-git push origin --delete feature/liisa
+git branch -D feature/liisa #If the branch is not merged yet
+git push origin --delete feature/liisa #delete it from the remote repository
 ```
