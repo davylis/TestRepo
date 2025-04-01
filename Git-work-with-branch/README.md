@@ -50,3 +50,7 @@ git branch -d feature/liisa  # Delete the local branch
 git branch -D feature/liisa #If the branch is not merged yet
 git push origin --delete feature/liisa #delete it from the remote repository
 ```
+### Configuration for branches
+```
+vim .git/config
+```
